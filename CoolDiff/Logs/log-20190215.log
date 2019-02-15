@@ -342,3 +342,104 @@ Module not found: Error: Can't resolve '../../assets/images/demo/banner4.png' in
   \"refresh_token\": \"[removed for security reasons]\",
   \"id_token\": \"[removed for security reasons]\"
 }". (12d98310)
+2019-02-15T16:50:27.8341057+11:00 0HLKJ15LG128U:00000005 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"guest\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2019-02-15T16:50:27.8717917+11:00 0HLKJ15LG128U:00000005 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2019-02-15T16:50:27.8754293+11:00 0HLKJ15LG128U:00000005 [INF] The token request was successfully validated. (d7e51e65)
+2019-02-15T16:50:27.8907704+11:00 0HLKJ15LG128U:00000005 [DBG] The default token request handling was skipped from user code. (72afae05)
+2019-02-15T16:50:35.1048115+11:00 0HLKJ15LG128U:00000005 [INF] An ad hoc authorization was automatically created and associated with an unknown application: "3d77751e-629b-45f9-97c8-2f3b545a9364". (b5fe4ad7)
+2019-02-15T16:50:35.1339107+11:00 0HLKJ15LG128U:00000005 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:50:35.1370364+11:00 0HLKJ15LG128U:00000005 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:50:35.1401461+11:00 0HLKJ15LG128U:00000005 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:50:35.1432986+11:00 0HLKJ15LG128U:00000005 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:50:35.3777622+11:00 0HLKJ15LG128U:00000005 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2019-02-15T16:50:35.4117466+11:00 0HLKJ15LG128U:00000005 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2019-02-15T16:51:13.6293732+11:00 0HLKJ15LG128U:00000006 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"admin\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2019-02-15T16:51:13.6323101+11:00 0HLKJ15LG128U:00000006 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2019-02-15T16:51:13.6348499+11:00 0HLKJ15LG128U:00000006 [INF] The token request was successfully validated. (d7e51e65)
+2019-02-15T16:51:13.6378120+11:00 0HLKJ15LG128U:00000006 [DBG] The default token request handling was skipped from user code. (72afae05)
+2019-02-15T16:51:13.9698293+11:00 0HLKJ15LG128U:00000006 [INF] An ad hoc authorization was automatically created and associated with an unknown application: "890b0c67-d4bb-4ab2-915e-78577c7a4ea4". (b5fe4ad7)
+2019-02-15T16:51:13.9726323+11:00 0HLKJ15LG128U:00000006 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:51:13.9758992+11:00 0HLKJ15LG128U:00000006 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:51:13.9783238+11:00 0HLKJ15LG128U:00000006 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:51:13.9808370+11:00 0HLKJ15LG128U:00000006 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:51:14.0271784+11:00 0HLKJ15LG128U:00000006 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2019-02-15T16:51:14.0317675+11:00 0HLKJ15LG128U:00000006 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2019-02-15T16:51:23.5009702+11:00 0HLKJ15LG1291:00000003 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T16:51:23.5009702+11:00 0HLKJ15LG128T:00000005 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T16:51:25.3806293+11:00 0HLKJ15LG128U:00000007 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T16:51:25.3837447+11:00 0HLKJ15LG128U:00000007 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T16:51:25.4746588+11:00 0HLKJ15LG1292:00000004 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T16:51:25.4786011+11:00 0HLKJ15LG1292:00000004 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T16:51:42.2000781+11:00 0HLKJ15LG1290:00000005 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T16:51:50.3738184+11:00 0HLKJ15LG1291:00000004 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"guest\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2019-02-15T16:51:50.3770978+11:00 0HLKJ15LG1291:00000004 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2019-02-15T16:51:50.3799047+11:00 0HLKJ15LG1291:00000004 [INF] The token request was successfully validated. (d7e51e65)
+2019-02-15T16:51:50.3827426+11:00 0HLKJ15LG1291:00000004 [DBG] The default token request handling was skipped from user code. (72afae05)
+2019-02-15T16:51:50.6715345+11:00 0HLKJ15LG1291:00000004 [INF] An ad hoc authorization was automatically created and associated with an unknown application: "90d7be5f-8254-4631-b7c5-61b539df8ffc". (b5fe4ad7)
+2019-02-15T16:51:50.6755366+11:00 0HLKJ15LG1291:00000004 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:51:50.6779227+11:00 0HLKJ15LG1291:00000004 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:51:50.6802998+11:00 0HLKJ15LG1291:00000004 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:51:50.6826404+11:00 0HLKJ15LG1291:00000004 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:51:50.7309710+11:00 0HLKJ15LG1291:00000004 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2019-02-15T16:51:50.7343638+11:00 0HLKJ15LG1291:00000004 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2019-02-15T16:51:54.4322400+11:00 0HLKJ15LG128T:00000006 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T16:52:02.6936026+11:00 0HLKJ15LG128U:00000008 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T16:52:26.3910523+11:00 0HLKJ15LG1290:00000006 [INF] The token request was successfully extracted from the HTTP request: "{
+  \"username\": \"admin\",
+  \"password\": \"[removed for security reasons]\",
+  \"grant_type\": \"password\",
+  \"scope\": \"openid email phone profile offline_access roles\"
+}". (ebc01284)
+2019-02-15T16:52:26.3938441+11:00 0HLKJ15LG1290:00000006 [DBG] The token request validation process was partially skipped because the 'client_id' parameter was missing or empty. (fcec36a0)
+2019-02-15T16:52:26.3969363+11:00 0HLKJ15LG1290:00000006 [INF] The token request was successfully validated. (d7e51e65)
+2019-02-15T16:52:26.3998339+11:00 0HLKJ15LG1290:00000006 [DBG] The default token request handling was skipped from user code. (72afae05)
+2019-02-15T16:52:26.7004616+11:00 0HLKJ15LG1290:00000006 [INF] An ad hoc authorization was automatically created and associated with an unknown application: "3e4f0dea-1873-4cfe-ac0d-82cadbbefb54". (b5fe4ad7)
+2019-02-15T16:52:26.7031297+11:00 0HLKJ15LG1290:00000006 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:52:26.7054681+11:00 0HLKJ15LG1290:00000006 [DBG] '"fullname"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:52:26.7076950+11:00 0HLKJ15LG1290:00000006 [DBG] '"configuration"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:52:26.7106405+11:00 0HLKJ15LG1290:00000006 [DBG] '"email"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:52:26.7134386+11:00 0HLKJ15LG1290:00000006 [DBG] '"phone"' was excluded from the access token claims. (ed8f369e)
+2019-02-15T16:52:26.7584065+11:00 0HLKJ15LG1290:00000006 [DBG] '"AspNet.Identity.SecurityStamp"' was excluded from the identity token claims. (7dcd2335)
+2019-02-15T16:52:26.7617704+11:00 0HLKJ15LG1290:00000006 [INF] The token response was successfully returned: "{
+  \"token_type\": \"Bearer\",
+  \"access_token\": \"[removed for security reasons]\",
+  \"expires_in\": 3600,
+  \"refresh_token\": \"[removed for security reasons]\",
+  \"id_token\": \"[removed for security reasons]\"
+}". (12d98310)
+2019-02-15T17:07:02.4838091+11:00 0HLKJ15LG12A6:00000001 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T17:07:02.4907665+11:00 0HLKJ15LG12A7:00000001 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2019-02-15T17:07:02.5239573+11:00 0HLKJ15LG12A7:00000001 [DBG] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
